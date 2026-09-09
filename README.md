@@ -1,4 +1,4 @@
-# Festi'JS — [nom de votre festival]
+# Festi'JS — La boite a sardines
 
 > Remplissez ce fichier en séance 1. C'est votre premier commit.
 
@@ -6,8 +6,8 @@
 
 | Prénom NOM | Identifiant Git | Groupe |
 |------------|-----------------|--------|
-|            |                 |        |
-|            |                 |        |
+| Alana Horry           |                 |   créa 2      |
+| Romain Duchamps          |                 |      créa 2  |
 
 ### Répartition du travail
 
@@ -18,8 +18,8 @@ _Qui tient quels fichiers ? À revoir toutes les 3-4 séances, en échangeant le
 
 ## Le festival
 
-- **Thème :**
-- **En une phrase :**
+- **Thème :** les poissons
+- **En une phrase :** un site qui parle de poisson
 - **Blind test envisagé :** audio / vidéo — sur quoi ?
 
 ## Lancer le projet
