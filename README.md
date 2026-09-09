@@ -20,7 +20,7 @@ _Qui tient quels fichiers ? À revoir toutes les 3-4 séances, en échangeant le
 
 - **Thème :** les poissons
 - **En une phrase :** un site qui parle de poisson
-- **Blind test envisagé :** audio / vidéo — sur quoi ?
+- **quizz sur les poissons :** audio / vidéo — sur quoi ?
 
 ## Lancer le projet
 
