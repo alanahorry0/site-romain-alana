@@ -1,11 +1,13 @@
 class Evenement {
-  constructor() {
+  constructor(nomS,nomV,image,type) {
+    this.nomS = nomS; //nomS = Nom Scientifique
+    this.nomV = nomV; //nomV = Nom Vernaculaire (Le nom que tu dis quand tu es pas chiant comme Romain)
+    this.image = image;
+    this.type = type;
   }
 
   heureFin() {
-    const heures = Number(this..slice(0, 2));
-    const minutes = Number(this..slice(3, 5));
-    const total = heures * 60 + minutes + this.;
+    
 
     let h = Math.floor(total / 60) % 24;
     let m = total % 60;
@@ -18,7 +20,9 @@ class Evenement {
   carte() {
     return `
       <li class="carte">
-        <h3>${}</h3>
+        <img>${this.image}</img>
+        <h3>${this.nomV}</h3>
+        <h4>${this.nomS}</h4>
       </li>`;
   }
 }
