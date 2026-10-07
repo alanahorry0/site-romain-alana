@@ -1,14 +1,18 @@
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
+  font-family:  "spongebob", sans-serif;
 }
 
+@font-face {
+  font-family: "spongebob";
+  src:
+    local("spongebob"),
+    url("/spongeboy_me_bob/Spongeboy_Me_Bob.ttf") format("opentype") }
 header,
 main {
   max-width: 70rem;
   margin: 0 auto;
-  padding: 1rem;
-}
+  padding: 1rem;}
 
 #programme {
   list-style: none;
@@ -19,4 +23,22 @@ main {
 
 .carte {
 
+}
+
+main {
+  background-image: url(https://st2.depositphotos.com/2627021/47995/i/450/depositphotos_479957108-stock-photo-underwater-diving-tropical-scene-sea.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
