@@ -1,14 +1,18 @@
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
+  font-family:  "spongebob", sans-serif;
 }
 
+@font-face {
+  font-family: "spongebob";
+  src:
+    local("spongebob"),
+    url("/spongeboy_me_bob/Spongeboy_Me_Bob.ttf") format("opentype") }
 header,
 main {
   max-width: 70rem;
   margin: 0 auto;
-  padding: 1rem;
-}
+  padding: 1rem;}
 
 #programme {
   list-style: none;
@@ -19,4 +23,23 @@ main {
 
 .carte {
 
+}
+
+main {
+  background-image: url(https://m.media-amazon.com/images/S/aplus-media-library-service-media/c73cea24-c375-436d-a030-8753c4164fe2.__CR0,0,970,600_PT0_SX970_V1___.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.562);
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
