@@ -17,11 +17,17 @@ main {
 #programme {
   list-style: none;
   padding: 0;
-  display: grid;
+  display: flex;
   gap: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .carte {
+
+  background-color: blue;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.781);
 
 }
 
