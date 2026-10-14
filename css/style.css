@@ -1,6 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 3rem;
+  margin: 20px;
+}
+
+h2{
+  margin: 10px;
+  font-size: 1.8rem;
+}
+
+h3{
+  
+  font-size: 1.6rem;
+}
+
+h4{
+  font-size: 1.4rem;
+}
+
 body {
   margin: 0;
   font-family:  "spongebob", sans-serif;
+  height: 100%;
+  background-image: url(https://m.media-amazon.com/images/S/aplus-media-library-service-media/c73cea24-c375-436d-a030-8753c4164fe2.__CR0,0,970,600_PT0_SX970_V1___.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 148, 0.5);
+  background-blend-mode: multiply;
 }
 
 @font-face {
@@ -8,9 +40,9 @@ body {
   src:
     local("spongebob"),
     url("/spongeboy_me_bob/Spongeboy_Me_Bob.ttf") format("opentype") }
-header,
+
 main {
-  max-width: 70rem;
+  max-width: 70%;
   margin: 0 auto;
   padding: 1rem;}
 
@@ -24,21 +56,21 @@ main {
 }
 
 .carte {
-
   background-color: rgba(82, 82, 255, 0.639);
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.781);
-  color : rgb(255, 253, 253)
-
+  color : rgb(255, 253, 253);
+  display: grid;
+  gap: 10px;
+  grid-template-rows:5fr 1fr 1fr;
+  width: 400px;
+  padding: 15px;
 }
 
 main {
-  background-image: url(https://m.media-amazon.com/images/S/aplus-media-library-service-media/c73cea24-c375-436d-a030-8753c4164fe2.__CR0,0,970,600_PT0_SX970_V1___.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   color: white;
   background-color: rgba(0, 0, 0, 0.562);
+  
 
 }
 
@@ -49,4 +81,16 @@ header {
   padding: 1rem;
   background-color: rgb(0, 0, 0);
   color: white;
+}
+
+.imgBox{
+  
+}
+
+img{
+  width: 370px;
+  max-height: 100%;
+  border-radius: 5px;
+  object-fit:cover;
+  text-align: center;
 }
