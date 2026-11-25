@@ -1,27 +1,60 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nom du festival</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <header>
     <h1>La Boite a Sardines</h1>
     <div class="headerTriggers">
-    <a href="index.html"><div class="headerButton"><h2>accueil</h2></div></a>
-    <a href="quizz.html"><div class="headerButton"><h2>quizz</h2></div></a>
+      <a href="index.html">
+        <div class="headerButton">
+          <h2>accueil</h2>
+        </div>
+      </a>
+      <a href="quizz.html">
+        <div class="headerButton">
+          <h2>quizz</h2>
+        </div>
+      </a>
     </div>
   </header>
 
   <main>
     <h2>Voir nos poissons</h2>
-    <ul id="programme"></ul>
-  </main> 
+
+<div class="typebuttons">
+    <div class="headerButton">
+      <h2>Eau Douce</h2>
+    </div>
+
+
+
+    <div class="headerButton">
+      <h2>Eau Salée
+      </h2>
+    </div>
+
+
+    <div class="headerButton">
+      <h2>Eau Profonde</h2>
+    </div>
+
+     </div>
+      <ul id="programme"></ul>
+  </main>
+
+
+
 
   <script src="js/Evenement.js"></script>
   <script src="data/evenements.js"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>

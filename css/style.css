@@ -113,3 +113,11 @@ img{
   flex-direction: row;
   gap: 10px;
 }
+
+.typebuttons{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
