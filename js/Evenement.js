@@ -6,17 +6,6 @@ class Evenement {
     this.type = type;
   }
 
-  heureFin() {
-    
-
-    let h = Math.floor(total / 60) % 24;
-    let m = total % 60;
-    if (h < 10) h = "0" + h;
-    if (m < 10) m = "0" + m;
-
-    return h + ":" + m;
-  }
-
   carte() {
     return `
       <li class="carte">

@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+a{
+  color: white;
+  text-decoration: none;
+}
+
 h1{
   font-size: 3rem;
   margin: 20px;
@@ -83,9 +88,6 @@ header {
   color: white;
 }
 
-.imgBox{
-  
-}
 
 img{
   width: 370px;
@@ -93,4 +95,21 @@ img{
   border-radius: 5px;
   object-fit:cover;
   text-align: center;
+}
+
+.headerButton{
+  width: 150px;
+  height: 100px;
+  background-color: rgba(0, 0, 148, 1);
+  padding-top: 20px;
+  text-align: center;
+  border-radius:5px;
+  box-shadow: 5px 5px 0  rgb(0, 0, 85);
+  margin-right:50px;
+}
+
+.headerTriggers{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
