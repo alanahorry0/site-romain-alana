@@ -1,5 +1,5 @@
 // titre, jour, heure de début, durée en minutes
-const programme = [
+let programme = [
   new Evenement("img/a700552a-40a3-44e5-abb3-2affbb787c89-Red-Lipped-Batfish.jpg","Poisson Chauve Souris à lèvre rouge", "Ogcocephalus Darwini","Insolite"),
   new Evenement("img/Dipneuste.webp","Dipneuste", "Ceratodontimorpha", "Insolite"),
   new Evenement("img/baliste.jpg","Balliste commun", "Capriscus", "Eau Salée"),

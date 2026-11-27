@@ -98,7 +98,6 @@ img{
 }
 
 .headerButton{
-  width: 150px;
   height: 100px;
   background-color: rgba(0, 0, 148, 1);
   padding-top: 20px;
@@ -106,6 +105,11 @@ img{
   border-radius:5px;
   box-shadow: 5px 5px 0  rgb(0, 0, 85);
   margin-right:50px;
+}
+
+.headerButton :hover{
+  background-color: white;
+  color: black;
 }
 
 .headerTriggers{
@@ -119,5 +123,8 @@ img{
   flex-direction: row;
   gap: 10px;
   margin-bottom: 20px;
-  padding-bottom: 10px;
+}
+
+.typebuttons h2{
+  margin-bottom: 20px;
 }
