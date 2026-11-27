@@ -1,7 +1,7 @@
 class Evenement {
-  constructor(image,nomS,nomV,type) {
-    this.nomS = nomS; //nomS = Nom Scientifique
-    this.nomV = nomV; //nomV = Nom Vernaculaire (Le nom que tu dis quand tu es pas chiant comme Romain)
+  constructor(image,nomV,nomS,type) {
+    this.nomV = nomV; //nomS = Nom Scientifique
+    this.nomS = nomS; //nomV = Nom Vernaculaire (Le nom que tu dis quand tu es pas chiant comme Romain)
     this.image = image;
     this.type = type;
   }
